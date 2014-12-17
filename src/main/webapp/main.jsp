@@ -10,6 +10,8 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<s:url action="login" var="login" />
+	<s:url action="register" var="register" />
 	<div id="header">
 		<a href="/" class="logo">Celebrity Mash</a>
 		<a href="" class="register">Sign up</a>
@@ -54,7 +56,6 @@
 </tbody></table>
 <div id="vs"><img src="img/vs-icon.png" alt="vs-icon"></div>
 
-<div class ="top_title">Global Top 10</div>
 <table>
 	<tr>
 	<c:forEach var="celebrity" items="${topRated}" >

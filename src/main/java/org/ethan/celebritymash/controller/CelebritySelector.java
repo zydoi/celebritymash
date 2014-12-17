@@ -12,6 +12,7 @@ import org.apache.log4j.Logger;
 import org.ethan.celebritymash.dao.CelebrityDao;
 import org.ethan.celebritymash.model.Celebrity;
 
+@Deprecated
 public class CelebritySelector extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;

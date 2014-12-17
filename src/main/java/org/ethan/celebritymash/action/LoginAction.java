@@ -1,5 +1,7 @@
 package org.ethan.celebritymash.action;
 
-public class LoginAction {
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport {
 
 }
